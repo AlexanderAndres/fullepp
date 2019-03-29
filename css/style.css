@@ -1,0 +1,265 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "rajdhani";
+    src: url("../fonts/Rajdhani/Rajdhani-Regular.ttf");
+    }
+
+@font-face {
+    font-family: "plumon";
+    src: url("/fonts/Permanent_Marker/PermanentMarker-Regular.ttf");
+    }
+
+.rajdhani {
+    font-family: "rajdhani";
+}
+
+.plumon {
+    font-family: "plumon";
+}
+
+/* #wall {
+    background: url('/img/pexels-photo-545331.jpeg') no-repeat;
+    color: #fff;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+} */
+
+nav {
+    transition: .5s ease-in-out;
+    background: #F9A825;
+}
+
+nav .navbar-nav .nav-item a {
+    color: #fff !important;
+}
+
+nav .navbar-nav .nav-item a:hover {
+    color: #000 !important;
+}
+
+nav .navbar-nav .nav-item a .active {
+    color: #000 !important;
+}
+
+
+/* .scrolled {
+    #E00108
+    background: #F9A825;
+    transition: .5s ease-in-out;
+} */
+
+/* background: url('/img/pexels-photo-545331.jpeg') no-repeat; */
+
+.dark-overlay {
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.5);
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+#inicio {
+    background: url(../img/blue-factory-flame-1474993.jpg) no-repeat top center;
+    display: table;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#servicios {
+    min-height: 80vh;
+}
+
+.fixed-t-1 {
+    background: url(../img/architecture-blur-bright-1329061.jpg) no-repeat center center;
+    display: table;
+    height: 20vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fixed-t-2 {
+    background: url(../img/construction-site-build-construction-work-159306.jpeg) no-repeat center center;
+    display: table;
+    height: 20vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark-overlay-t {
+    background-color: rgba(33, 33, 33, 0.5);
+    display: table;
+    height: 20vh;
+    position: relative;
+    width: 100%;
+}
+
+.dark-overlay-70 {
+    background-color: rgba(33, 33, 33, 0.5);
+    display: table;
+    height: 70vh;
+    position: relative;
+    width: 100%;
+}
+
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#conoceme {
+    min-height: 40vh;
+}
+
+
+.img-resp {
+    height: 80px;
+}
+.landing-text h1 {
+    font-size: 50px;
+}
+            
+.landing-text h2 {
+    font-size: 40px;
+}
+
+.padding {
+    padding: 80px 0;
+}
+
+.h70 {
+    min-height: 70vh;
+}
+
+.padding img {
+    width: 100%;
+}
+
+.fixed {
+    background: url(../img/pexels-photo-169573.jpeg) no-repeat center center fixed;
+    display: table;
+    height: 40vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.fixed-1 {
+    background: url(../img/black-and-white-computer-display-220357.jpg) no-repeat bottom center fixed;
+    display: table;
+    height: 50vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.fixed-2 {
+    background: url(../img/cameras-composition-computer-1483937.jpg) no-repeat bottom center fixed;
+    display: table;
+    height: 50vh;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.list {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.f-s {
+    font-size: 30px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
+    .img-resp {
+        height: 100px;
+    }
+    .landing-text h1 {
+        font-size: 35px;
+    }
+                
+    .landing-text h2 {
+        font-size: 30px;
+    }
+} 
+
+.btn-outline-danger:hover {
+    background-color: #b00020 !important;
+}
+.btn-outline-dark:hover {
+    background-color: #212121 !important;
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+    .img-resp {
+        height: 180px;
+    }
+    .landing-text h1 {
+        font-size: 40px;
+    }
+                
+    .landing-text h2 {
+        font-size: 30px;
+    }
+} 
+
+/* Large devices */
+@media only screen and (min-width: 992px) {
+    .img-resp {
+        height: 280px;
+    }
+    .landing-text h1 {
+        font-size: 60px;
+    }
+                
+    .landing-text h2 {
+        font-size: 50px;
+    }
+} 
+
+/* Extra large devices */
+@media only screen and (min-width: 1200px) {
+    .img-resp {
+        height: 300px;
+    }
+    .landing-text h1 {
+        font-size: 50px;
+    }
+                
+    .landing-text h2 {
+        font-size: 40px;
+    }
+}
